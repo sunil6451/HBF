@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [nopCommerce]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="nopCommerce Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- nopCommerce Test2(failed) -->
+</suite> <!-- Failed suite [nopCommerce] -->
